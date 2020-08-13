@@ -1,0 +1,110 @@
+body {
+    background-color: bisque;
+}
+
+#provider {
+    display: grid;
+    width: 35%;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.refresh{
+    position: fixed;
+    left: 700px;
+    top:8%;
+}
+
+table{
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    font-size: larger;
+
+}
+
+td, th{
+    border: 1px solid #cccccc;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.copyWrite{
+    color: lightcoral;
+    position: relative;
+    left: 27%;
+}
+
+.picture {
+    width: 200px;
+    height: 250px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: transparent;
+    border: 3px solid lightcoral;
+    border-radius: 10px;
+}
+
+.btnRemove{
+    background-color: red;
+    color: white;
+    width: 80px;
+    border-radius: 10px;
+
+}
+.btnUpdate{
+    background-color: darkblue;
+    color: white;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.tableRow {
+    vertical-align: middle;
+}
+
+#modalForm{
+    vertical-align: middle;
+    position: center;
+}
+
+#reload, #btnNew{
+    background-color: lightcoral;
+    border-color: lightcoral;
+    width: 100%;
+    font-size: larger;
+
+}
+
+.button {
+    background-color: lightcoral;
+    border-color: lightcoral;
+
+}
+
+.stick{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: firebrick ;
+    color: white;
+    padding-top: 0.45%;
+    padding-bottom: 0.45%;
+    text-align: center;
+    font-size: larger;
+}
+
+#email{
+    text-align: center;
+    font-size: larger;
+    color: lightcoral;
+}
